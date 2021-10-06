@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Selectors</title>
+	<style>
+		div li p{
+			color: red;
+			background-color: black;
+		}
+		div + p{
+			color: orange;
+			background-color: black;
+		}
+		div > ul{
+			background-color: red;
+			color: orange;
+		}
+		ul + li{
+			color: orange;
+		}
+	</style>
+</head>
+<body>
+	<p>This is a line</p>
+	<div>
+		<ul>
+			<li><p>Did all m dreams never mean one thing?</p></li>
+			<li><p>Does happiness lie in a diamond ring?</p></li>
+		</ul>
+	</div>
+	<div>
+		<p>I wish I could escape it</p>
+		<p>I don't wanna fake it</p>
+	</div>
+	<p>Did all my dreams never mean one thing?</p>
+	<p>Does happiness lie in a diamond ring?</p>
+</body>
+</html>
